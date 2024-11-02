@@ -19,3 +19,7 @@ weight = 3
 url = "/posts"
 name = "Archive"
 weight = 1
+[[menu.main]]
+url = "/about"
+name = "About"
+weight = 4 
