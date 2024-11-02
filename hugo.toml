@@ -1,4 +1,21 @@
 baseURL = 'https://example.org/'
+DefaultContentLanguage = "en"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'ananke'
+theme = 'diary'
+[params]
+googleSearchCode = "Your Search Code"
+
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 3
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1
